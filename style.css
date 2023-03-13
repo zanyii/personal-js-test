@@ -1,0 +1,43 @@
+:root {
+    --dark-mode-bg-color: #000;
+    --dark-mode-font-color: #fff;
+
+}
+
+body.dark-mode {
+    background-color: var(--dark-mode-bg-color);
+    color: var(--dark-mode-font-color);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+hr {
+    width: 50vw;
+}
+
+p {
+    width: 75vw;
+    line-height: 1.7em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+small {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.8em;
+}
